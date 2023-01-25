@@ -9,8 +9,8 @@ module.exports = {
   solidity: "0.8.17",
   networks: {
     goerli: {
-      url: GOERLI_URL,
-      accounts: [PRIVATE_KEY],
+      url:"https://eth-goerli.g.alchemy.com/v2/32YKYyMjTGgfzGPFxA-QjGRUsorsDeKT",
+      accounts: ["5352502dcec2a2444888b183aed70cb1be056864155205a7bbd3220ea822b6b4"],
     },
   },
 };

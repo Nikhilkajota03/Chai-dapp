@@ -5,6 +5,8 @@ async function getBalances(address) {
   return hre.ethers.utils.formatEther(balanceBigInt);
 }
 
+console.log(getBalances())
+
 async function cosoleBalances(addresses) {
   let counter = 0;
   for (const address of addresses) {
