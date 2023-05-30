@@ -8,9 +8,9 @@ const PRIVATE_KEY = process.env.PRIVATE_KEY;
 module.exports = {
   solidity: "0.8.17",
   networks: {
-    goerli: {
-      url:"https://eth-goerli.g.alchemy.com/v2/32YKYyMjTGgfzGPFxA-QjGRUsorsDeKT",
-      accounts: ["5352502dcec2a2444888b183aed70cb1be056864155205a7bbd3220ea822b6b4"],
+    mumbai: {
+      url:"https://polygon-mumbai.g.alchemy.com/v2/7E25Ij0bVM02w5vViNlFSiBal9teKvcF",
+      accounts: ["25feb674107bba57d56c12fe76222685719274350d17868d7facef78543be5e8"],
     },
   },
 };

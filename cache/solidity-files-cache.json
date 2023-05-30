@@ -1,10 +1,10 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "C:\\Users\\nikhi\\Desktop\\Blockchain\\project\\buy me a cofee\\contracts\\chai.sol": {
-      "lastModificationDate": 1672754981184,
-      "contentHash": "a65bdf5914a6ccca7c02e47ca1793572",
-      "sourceName": "contracts/chai.sol",
+    "C:\\Users\\nikhi\\OneDrive\\Desktop\\New folder (3)\\Chai-dapp\\contracts\\staking.sol": {
+      "lastModificationDate": 1685466648680,
+      "contentHash": "8d78e54d913d81e8000bfebcb009b6e3",
+      "sourceName": "contracts/staking.sol",
       "solcConfig": {
         "version": "0.8.17",
         "settings": {
@@ -30,10 +30,11 @@
       },
       "imports": [],
       "versionPragmas": [
-        ">= 0.5.0 < 0.9.0"
+        "^0.8"
       ],
       "artifacts": [
-        "chai"
+        "IERC20",
+        "StakingRewards"
       ]
     }
   }
